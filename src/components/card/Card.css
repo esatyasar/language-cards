@@ -1,0 +1,16 @@
+.images{
+    width:100px;
+    height: 100px;
+}
+
+.box{
+    background-color: #fbecdc;
+    border-radius: 15px;
+}
+.box:hover .images{
+    width:130px;
+    height: 130px;
+}
+.lang{
+    color: #fbecdc;
+}
