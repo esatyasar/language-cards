@@ -4,13 +4,11 @@ import './Card.css';
 
 
 function Card() {
-    
-    const [overContent, setOverContent] = useState(true);
-
+    const [overContent,setOverContent] = useState(true)
     return (
 
         <div className="d-flex">
-            <div className="rounded-3 bg-warning m-auto col-4 ">
+            <div className="main-container rounded-3 bg-warning m-auto col-4 ">
                         <h3 className="lang bg-warning w-100 text-center my-3 fs-1">
                             Languages
                         </h3>
@@ -34,6 +32,7 @@ function Card() {
                                 </>
                             ):(
                                 <>
+                               
                                 {categories.map((card) => {
                                     return(
                                     <div className="box col-sm-4 d-flex  align-items-center my-3 py-2 mx-3">

@@ -4,12 +4,15 @@
     width:100px;
     height: 100px;
 }
-
+.main-container{
+    min-width: 400px;
+}
 .box{
     background-color: #fbecdc;
     border-radius: 15px;
     width:300px;
     height: 200px;
+    min-width: 300px;
 }
 .box:hover .images{
     width:130px;
