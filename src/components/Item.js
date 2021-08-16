@@ -1,4 +1,5 @@
 import React, { useState} from 'react'
+import './card/Card.css'
 
 function Item({card}) {
     const [overContent,setOverContent] = useState(true)
