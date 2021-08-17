@@ -6,7 +6,9 @@
 }
 .main-container{
     min-width: 400px;
+    border-radius: 15px;
 }
+
 .box{
     background-color: #fbecdc;
     border-radius: 15px;
@@ -14,6 +16,12 @@
     height: 200px;
     min-width: 300px;
 }
+
+.box:hover{
+    box-shadow: 0px 0px 9px 5px #544cee;
+
+}
+
 .box:hover .images{
     width:130px;
     height: 130px;

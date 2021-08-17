@@ -7,7 +7,7 @@ function Card() {
     return (
 
         <div className="d-flex">
-            <div className="main-container rounded-3 bg-warning m-auto col-4 ">
+            <div className=" main-container bg-warning m-auto col-5 mb-5">
                         <h3 className="lang bg-warning w-100 text-center my-3 fs-1">
                             Languages
                         </h3>
