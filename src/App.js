@@ -1,6 +1,6 @@
 import Card from "./components/card/Card";
 import './App.css';
-import ReactimgFunc from "./components/Reactimg";
+import HeaderFunc from "./components/Header";
 
 
 function App() {
@@ -8,7 +8,7 @@ function App() {
     <>
 
       <div className="app container-fluid d-flex flex-column align-item-center ">
-        <ReactimgFunc />
+        <HeaderFunc />
         <Card />
       </div>
     </>
